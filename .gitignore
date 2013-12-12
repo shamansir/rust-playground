@@ -1,7 +1,7 @@
 /*
 !/*.rs
 !/*.sh
-!/crates
+!/crates/
 /crates/**/*
 !/crates/**/
 !/crates/**/*.rs
