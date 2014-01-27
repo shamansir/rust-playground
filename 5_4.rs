@@ -9,7 +9,7 @@ fn main() {
     struct GizmoId(int);
 
     let my_gizmo_id: GizmoId = GizmoId(10);
-    let id_int: int = *my_gizmo_id;
-    println!("{} : {}", id_int, *my_gizmo_id);
+    let GizmoId(id_int) = my_gizmo_id;
+    println!("gizmo ID is {}", id_int);
 
 }

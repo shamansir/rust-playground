@@ -1,5 +1,7 @@
 fn main() {
 
+    // FIXME: make it work
+
     {
         let managed = @10;
         let owned = ~20;
@@ -10,7 +12,7 @@ fn main() {
     }
 
     {
-        let managed = @mut 10;
+        let managed = @10;
         let mut owned = ~20;
 
         let mut value = 30;

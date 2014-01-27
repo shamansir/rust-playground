@@ -1,2 +1,2 @@
 extern mod world;
-fn main() { println("hello " + world::explore()); }
+fn main() { println!("hello {}", world::explore()); }

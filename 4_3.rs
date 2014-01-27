@@ -5,12 +5,12 @@ fn main() {
         println!("{}", cake_amount);
     }
 
-    println("__");
+    println!("__");
 
     let mut x = 5u;
     loop {
         x += x - 3;
         if x % 5 == 0 { break; }
-        println(x.to_str());
+        println!(x.to_str());
     }
 }

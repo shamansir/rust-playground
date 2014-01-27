@@ -1,10 +1,10 @@
 fn main() {
     if false {
-        println("that's odd");
+        println!("that's odd");
     } else if true {
-        println("right");
+        println!("right");
     } else {
-        println("neither true nor false");
+        println!("neither true nor false");
     }
 
     fn signum(x: int) -> int {

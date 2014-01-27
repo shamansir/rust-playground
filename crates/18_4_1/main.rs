@@ -1,6 +1,6 @@
 mod farm;
 
 fn main() {
-    println("Hello farm!");
+    println!("Hello farm!");
     ::farm::cow();
 }

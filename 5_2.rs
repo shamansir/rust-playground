@@ -57,11 +57,11 @@ fn main() {
         }
     }*/
 
-    println(area(Circle(Point{x: 10.0, y: 10.0}, 20.0)).to_str());
-    println(area(Rectangle(Point{x: 10.0, y: 10.0},
-                           Point{x: 10.0, y: 10.0})).to_str());
-    println(area(Rectangle(Point{x: 10.0, y: 10.0},
-                           Point{x: 20.0, y: 20.0})).to_str());
+    println!("{}", area(Circle(Point{x: 10.0, y: 10.0}, 20.0)));
+    println!("{}", area(Rectangle(Point{x: 10.0, y: 10.0},
+                                  Point{x: 10.0, y: 10.0})));
+    println!("{}", area(Rectangle(Point{x: 10.0, y: 10.0},
+                                  Point{x: 20.0, y: 20.0})));
 
     //println!("{}", point_from_direction(North));
 }

@@ -1,1 +1,1 @@
-pub fn bar() { println("Baz!"); }
+pub fn bar() { println!("Baz!"); }

@@ -6,11 +6,11 @@ fn main() {
         }
 
         call_it(proc(n) {
-            println(n.to_str());
+            println!("{}", n);
         });
 
         do call_it() |n| {
-            println(n.to_str());
+            println!("{}", n);
         }
     }
 

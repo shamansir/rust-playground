@@ -1,6 +1,6 @@
-pub fn chicken() { println("cluck cluck"); }
-pub fn cow() { println("mooo"); }
+pub fn chicken() { println!("cluck cluck"); }
+pub fn cow() { println!("mooo"); }
 
 pub mod barn {
-    pub fn hay() { println("..."); }
+    pub fn hay() { println!("..."); }
 }

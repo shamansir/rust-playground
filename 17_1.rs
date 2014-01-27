@@ -11,7 +11,7 @@ fn main() {
     impl Drop for TimeBomb {
         fn drop(&mut self) {
             for _ in range(0, self.explosivity) {
-                println("blam!");
+                println!("blam!");
             }
         }
     }

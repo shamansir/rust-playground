@@ -7,15 +7,14 @@ fn main() {
 
     fn point_info(pt: Point) {
         match pt {
-            Point { x: 0.0, y: yy } => { println(yy.to_str()); }
-            Point { x: xx,  y: yy } => { println(xx.to_str() +
-                                           "/" + yy.to_str()); }
+            Point { x: 0.0, y: yy } => { println!("{}", yy); }
+            Point { x: xx,  y: yy } => { println!("{}, {}", xx, yy); }
         }
     }
 
     fn x_info(pt: Point) {
         match pt {
-            Point { x, _ } => { println(x.to_str()); }
+            Point { x, .. } => { println!("{}", x); }
         }
     }
 

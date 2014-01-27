@@ -6,11 +6,11 @@ fn main() {
         }
 
         impl Printable for int {
-            fn print(&self) { println!("{}", *self) }
+            fn print(&self) { println!("{:?}", *self) }
         }
 
         impl Printable for ~str {
-            fn print(&self) { println(*self) }
+            fn print(&self) { println!("{}", *self) }
         }
 
         5.print();
